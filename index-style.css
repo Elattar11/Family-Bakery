@@ -1,0 +1,546 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+body
+{
+    font-family: 'Alegreya', serif;
+}
+.home
+{
+    height: 100vh;
+    background-image: url(backgrounds/bakerybackground.jpg);
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+    background-position: center center;
+
+}
+
+.navbar
+{
+    padding: 10px 100px;
+}
+
+
+
+.navbar a img
+{
+    width: 13%;
+}
+
+.navbar ul
+{
+    float: right;
+    padding: 20x 8px;
+    list-style-type: none;
+
+}
+
+.navbar ul li a
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+
+}
+
+li
+{
+    float: left;
+}
+.clear-fix
+{
+    clear: both;
+}
+
+.home-content
+{
+    text-align: center;
+    padding-top: 180px;
+    color: white;
+}
+
+.home-content h1
+{
+    padding: 10px 0px;
+    font-size: 75px;
+    
+
+}
+.home-content h4
+{
+    padding: 30px 0px;
+    font-size: 25px;
+    
+
+}
+
+.home-content p
+{
+    font-size: 30px;
+    
+
+}
+
+.home-content a
+{
+    margin-top: 20px;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: white;
+    
+}
+
+.home-content .btnLearnMore
+{
+    background-color: #8e7754;
+    border: 2px solid transparent;
+    border-radius: 5px;
+
+    font-weight: bold;
+}
+
+.home-content .btnContactUs
+{
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+
+    font-weight: bold;
+}
+
+.home-content .homelinks
+{
+    margin-top: 50px;
+}
+
+.whoareyou
+{
+    background-color: white;
+    height: 80%;
+}
+
+
+.whoareyou .imagewhoweare
+{
+    width: 40%;
+    padding: 50px 50px;
+    float: left;
+}
+.imagewhoweare img
+{
+    width: 90%;
+}
+.whowearecontent
+{
+    width: 40%;
+    float: left;
+    margin-top: 70px;
+    color: black;
+}
+
+.whoareyou .whowearecontent p
+{
+    padding-top: 50px;
+    color:#5e5e67;
+}
+
+.whoareyou .iconslist 
+{
+
+    color:#5e5e67;
+    font-size: 20px;
+    float: left;
+    
+    padding-top: 50px;
+    width: 30%;
+}
+
+.whoareyou .iconslist ul
+{
+    list-style-type: none;
+    
+}
+
+.whoareyou .iconslist ul li
+{
+    padding: 15px 0px;
+    
+    color: #907754;
+    
+}
+.whoareyou .iconslist ul li i
+{
+    border: 1px solid #5e5e67;
+    border-radius: 50%;
+    padding: 8px;
+}
+.whoareyou .iconslist .listtexts
+{
+    color:#5e5e67; 
+    padding-left: 10px;
+}
+
+.ourlocation
+{
+    height: 80%;
+    background-color: #f8f8f8;
+}
+
+.ourlocation .imageOurLocation
+{
+
+    margin-top: 100px;
+    float: right;
+}
+.ourlocation .imageOurLocation img
+{
+    width: 70%;
+}
+
+.ourlocation .ourlocationContent
+{
+    width: 40%;
+
+    color:#5e5e67; 
+    margin-top: 150px;
+    margin-left: 80px;
+    float: left;
+}
+
+.ourlocation .ourlocationContent p
+{
+    padding-top: 20px;
+}
+
+
+.ourBaking
+{
+    height: 80%;
+ 
+    padding-top: 20px;
+}
+
+.ourBaking .ourBakingHead
+{
+    text-align: center;
+
+}
+.ourBaking .ourBakingHead p
+{
+    color:#5e5e67; 
+    padding-top: 10px;
+}
+
+.ourBakingSuperBreads
+{
+    margin-top: 50px;
+    margin-left: 10%;
+    text-align: center;
+    width: 25%;
+    float: left;
+
+}
+.ourBakingSuperBreads img
+{
+    width: 100%;
+}
+.ourBakingSuperBreads h2
+{
+    padding: 20px 0px;
+}
+
+.ourBakingSuperBreads p
+{
+
+    color:#5e5e67; 
+}
+.ourBakingBagels
+{
+    margin-top: 50px;
+    margin-left: 50px;
+    text-align: center;
+    width: 25%;
+    float: left;
+}
+
+.ourBakingBagels img
+{
+    width: 100%;
+}
+
+.ourBakingBagels h2
+{
+    padding: 20px 0px;
+}
+
+.ourBakingBagels p
+{
+    color:#5e5e67;
+}
+
+.ourBakingCookies
+{
+    margin-top: 50px;
+    margin-left: 50px;
+    text-align: center;
+    width: 25%;
+    float: left;
+}
+
+.ourBakingCookies img
+{
+    width: 100%;
+}
+.ourBakingCookies h2
+{
+    padding: 20px 0px;
+}
+
+.ourBakingCookies p
+{
+    color:#5e5e67;
+}
+
+.contactInfo
+{
+    height: 90%;
+    background-color: #f8f8f8;
+
+}
+
+.contactInfo .contactInfoHead
+{
+    margin-top: 100px;
+    margin-left: 50px;
+
+    width: 35%;
+    float: left;
+}
+.contactInfo .contactInfoHead h2
+{
+    padding: 20px 0px; 
+    color:#5e5e67;
+}
+
+.contactInfo .contactInfoHead p
+{
+    padding-bottom: 20px;
+    color:#5e5e67;
+    
+}
+
+.map
+{
+
+    float: left;
+    margin-left: 15%;
+    margin-top: 50px;
+
+
+}
+
+.contactInfo .contactInfoList 
+{
+
+    color:#5e5e67;
+    font-size: 16px;
+    float: left;
+    
+    width: 60%;
+}
+
+.contactInfo .contactInfoList ul
+{
+    list-style-type: none;
+    
+}
+
+.contactInfo .contactInfoList ul li
+{
+    padding: 15px 0px;
+    
+    color: white;
+    
+}
+.contactInfo .contactInfoList ul li i
+{
+    border: 1px solid #5e5e67;
+    border-radius: 50%;
+    padding: 8px;
+    background-color: #907754;
+}
+.contactInfo .contactInfoList .listtexts
+{
+    color:#5e5e67; 
+    padding-left: 10px;
+}
+
+.LI1
+{
+    float: left;
+}
+
+.LI2
+{
+    width: 60%;
+    float: left;
+}
+
+.information
+{
+    height: 60%;
+    background-color: #46443f;
+}
+
+.information .aboutus
+{
+    margin-top: 35px;
+    margin-left: 35px;
+    float: left;
+    width: 23%;
+}
+
+.information .aboutus h4 
+{
+    padding: 20px 0px;
+    color: white;
+}
+
+.information .aboutus p 
+{
+    padding-bottom: 20px;
+    color: #8c8b7f;
+}
+
+.Whywearespecial
+{
+
+    margin-top: 35px;
+    margin-left: 35px;
+    float: left;
+    width: 20%;
+}
+
+.Whywearespecial .line
+{
+    float: left;
+    height: 1px;
+    width: 100%;
+    background-color: #8c8b7f;;
+}
+
+.Whywearespecial h4
+{
+    padding: 20px 0px;
+    color: white;
+}
+.Whywearespecial ul li
+{
+    padding: 10px 0px;
+    color: #8c8b7f;
+}
+.Whywearespecial ul
+{
+    list-style-type: circle;
+}
+
+.openinghours
+{
+    margin-top: 35px;
+    margin-left: 35px;
+    float: left;
+    width: 15%;
+}
+
+.openinghours .line2
+{
+    float: left;
+    height: 1px;
+    width: 100%;
+    background-color: #8c8b7f;;
+}
+
+.openinghours h4
+{
+    padding: 20px 0px;
+    color: white;
+}
+
+.openinghours ul
+{
+    list-style-type: circle;
+}
+
+.openinghours ul li
+{
+    padding: 10px 0px;
+    color: #8c8b7f;
+}
+
+.contactdetails
+{
+    margin-top: 35px;
+    margin-left: 35px;
+    float: left;
+    width: 32%;
+}
+
+.contactdetails .contactInfoList 
+{
+
+    color:#5e5e67;
+    font-size: 16px;
+    float: left;
+    
+    width: 60%;
+}
+
+.contactdetails .contactInfoList ul
+{
+    list-style-type: none;
+    
+}
+
+.contactdetails .contactInfoList ul li
+{
+    padding: 15px 0px;
+    
+    color: #8c8b7f;
+    
+}
+.contactdetails .contactInfoList ul li i
+{
+ 
+    padding: 8px;
+
+}
+
+.contactdetails h4
+{
+    padding: 20px 0px;
+    color: white;
+}
+
+.bottomlogo
+{
+    height: 40%;
+    background-color: #353330;
+    text-align: center;
+}
+
+.bottomlogo img
+{
+    margin-top: 50px;
+}
+
+.bottomlogo p
+{
+    margin-top: 50px;
+    color: #8c8b7f;
+}
